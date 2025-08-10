@@ -1,0 +1,84 @@
+       * {
+           padding: 0;
+           margin: 0;
+           font-family: sans-serif;
+       }
+       
+       body {
+           background: linear-gradient(150deg, rgb(170, 40, 40), rgb(40, 40, 170));
+           height: 100vh;
+           display: flex;
+           justify-content: center;
+           align-items: center;
+       }
+       
+       form {
+           background: white;
+           height: 50vh;
+           border-radius: 10px;
+           width: 100%;
+           max-width: 400px
+       }
+       
+       .title {
+           font-family: sans-serif;
+           font-style: italic;
+           display: flex;
+           justify-self: center;
+       }
+       
+       .image {
+           height: 100px;
+           display: flex;
+           justify-self: center;
+           border-radius: 50%;
+           background-color: rebeccapurple;
+       }
+       
+       form input {
+           padding: 10px;
+           border: 0.5px solid silver;
+           border-radius: 5px;
+           margin: 5px;
+           width: 50%;
+           display: flex;
+           align-items: center;
+       }
+       
+       .box-group {
+           display: flex;
+           flex-direction: column;
+           margin-bottom: 1rem;
+           display: flex;
+           align-items: center;
+           margin: 10px;
+       }
+       
+       button {
+           margin-top: 10px;
+           background-color: rebeccapurple;
+           color: white;
+           border: 0.5px solid black;
+           padding: 10px;
+           border-radius: 10px;
+           font-size: 0.9rem;
+           font-weight: 700;
+           width: 150px;
+           transition: all 0.5s;
+       }
+       
+       form .soshial img {
+           height: 4vh;
+           position: relative;
+           display: inline;
+           left: 115px;
+           margin: 2px;
+           margin-top: 30px;
+           border: 0.1px solid silver;
+           border-radius: 4px;
+       }
+       
+       button:hover {
+           cursor: pointer;
+           transform: scale(1.1);
+       }
